@@ -1,0 +1,24 @@
+name: Boost
+version: '${project.version}'
+main: me.iplaygames.Boost.BoostPlugin
+api-version: '1.20'
+
+dependencies:
+  server:
+    PlaceholderAPI:
+      # Load order is relative to the dependency. So here PlaceholderAPI loads before our plugin.
+      load: BEFORE
+      required: true
+
+commands:
+  withdrawBoost:
+    description: Converts a killstreak into an item.
+
+  Boost:
+      description: Displays a player's Boost.
+      usage: /<command> <player>
+
+  BoostChange:
+    description: Changes a player's Boost.
+    usage: /<command> <player> <killstreak>
+
