@@ -64,8 +64,7 @@ Boost plugin is a Paper Minecraft plugin for version 1.20.4 that enhances player
 ## Compatibility
 
 - **Minecraft Version**: Paper 1.20.4
-- **Dependencies**: PlaceholderAPI (required for dynamic placeholders and display features).
-Compatible with the BoostWeapon plugin for additional functionality which adds custom weapons which I have also created.
+- **Dependencies**: Compatible with the BoostWeapon plugin for additional functionality which adds custom weapons which I have also created.
 
 ---
 
